@@ -1,0 +1,22 @@
+{
+  "name": "babel-plugin-jsx-kdu-functional",
+  "version": "2.1.0-alpha.0",
+  "description": "JSX Syntactic Sugar Plugin for Kdu Functional Components",
+  "main": "index.js",
+  "repository": "https://github.com/khanhduy1407/babel-plugin-jsx-kdu-functional.git",
+  "author": "NKDuy",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-core": "^6.24.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "eslint": "^3.18.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "yarn lint && yarn ava"
+  }
+}
